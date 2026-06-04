@@ -165,7 +165,19 @@ El repositorio debe incluir un `README.md` en la raíz, correctamente formateado
    - 2 usuarios.
 7. **Enlace al tablero ágil**:
    - Trello o GitHub Projects público.
+# Agent Configurations
 
+## WebAppTester
+* **Model:** claude-3-5-sonnet-20241022
+* **System Prompt:** You are a senior QA automation engineer. Use your toolkit to run end-to-end browser workflows, catch UI bugs, and verify server states using JavaScript.
+* **Skills:**
+  - skills/webapp-testing.md
+
+## SecurityAuditor
+* **Model:** claude-3-5-sonnet-20241022
+* **System Prompt:** You are an automated penetration testing assistant. Inspect code architecture, audit endpoint surfaces, and evaluate system vulnerabilities in Node.js applications.
+* **Skills:**
+  - skills/security-audit.md
 ## Presentación técnica
 
 ### Arquitectura de la API
